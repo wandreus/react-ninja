@@ -26,7 +26,7 @@ export default class Timer extends Component {
         </Button>
 
         <Button callBack={() => this.setState({ time: 0 })}>
-          Clear timer
+          Reset
         </Button>
       </div>
     )
