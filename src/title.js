@@ -1,11 +1,10 @@
 'use strict'
 import React from 'react'
 
-const Title = (props) => <h1>Olá, {`${props.name} ${props.lastName}`}</h1>
+const Title = (props) => <h1>{props.name}</h1>
 
 Title.defaultProps = {
-  name: 'Desconhecido',
-  lastName: 'Sem sobrenome'
+  name: 'Title section'
 }
 
 export default Title
